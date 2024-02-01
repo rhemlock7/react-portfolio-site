@@ -1,3 +1,4 @@
+import { Outlet } from 'react-router-dom';
 import NavBar from './components/navBar'
 
 function App() {
@@ -5,9 +6,11 @@ function App() {
   return (
     <>
       <NavBar />
-      <h1>Hello World</h1>
+      <main className='m-5 light-bg'>
+        <Outlet />
+      </main>
     </>
   )
 }
 
-export default App
+export default App;
