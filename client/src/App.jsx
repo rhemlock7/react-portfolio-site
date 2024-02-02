@@ -1,13 +1,15 @@
 import { Outlet } from 'react-router-dom';
 import NavBar from './components/navBar'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
       <NavBar />
-      <main className='m-5 light-bg'>
+      <main className='py-5 light-bg max-width m-auto'>
         <Outlet />
+        <Footer />
       </main>
     </>
   )

@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 function NavBar() {
 
     return (
-        <>
-            <nav className='flex justify-between dark-bg text-white p-5'>
+        <header className='dark-bg text-white'>
+            <nav className='flex justify-between items-center py-5 max-width m-auto'>
                 <div>
-                    <h3>Ryan Hemlock</h3>
+                    <Link to='/'><h3>Ryan Hemlock</h3></Link>
                 </div>
                 <div>
-                    <Link className='mr-3' to='/'>Home</Link>
                     <Link className='mr-3' to='/about'>About</Link>
                     <Link className='mr-3' to='/projects'>Projects</Link>
-                    <Link to='/contact'>Contact</Link>
+                    <Link className='mr-3' to='/contact'>Contact</Link>
+                    <button className="button-cta">Resume</button>
                 </div>
             </nav>
-        </>
+        </header>
     )
 }
 
