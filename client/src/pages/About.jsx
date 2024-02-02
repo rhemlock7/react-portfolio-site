@@ -8,9 +8,8 @@ function About() {
                 <img src={ryanHeadshot} className='rounded-lg md:w-24 w-36' alt="Headshot image of Ryan Hemlock" />
             </div>
             <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ea. Laboriosam, ex? Iure accusantium nobis voluptatem consectetur, saepe minus, quo ratione incidunt doloribus autem velit exercitationem! Consequuntur deleniti dolores qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ea. Laboriosam, ex? Iure accusantium nobis voluptatem consectetur, saepe minus, quo ratione incidunt doloribus autem velit exercitationem! Consequuntur deleniti dolores qui?</p>
-                <p className="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ea. Laboriosam, ex? Iure accusantium nobis voluptatem consectetur, saepe minus, quo ratione incidunt doloribus autem velit exercitationem! Consequuntur deleniti dolores qui? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ea. Laboriosam, ex? Iure accusantium nobis voluptatem consectetur, saepe minus, quo ratione incidunt doloribus autem velit exercitationem! Consequuntur deleniti dolores qui?</p>
-                <p className="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, ea. Laboriosam, ex? Iure accusantium nobis voluptatem consectetur, saepe minus, quo ratione incidunt doloribus autem velit exercitationem!</p>
+                <p>My name is Ryan Hemlock and I am a web developer based out Atglen, PA. I am a full stack developer that works with the MERN stack. React, Express, Node, and MongoDB. I love SAAS companies & startups and would love to be a part of a company like that.</p>
+                <p className='mt-4'>Click the button below to get in touch with me.</p>
             </div>
             <div>
                 <button className="button-cta mt-5">Contact</button>
