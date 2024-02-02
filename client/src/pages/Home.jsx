@@ -1,9 +1,11 @@
 
 function Home() {
     return (
-        <div>
-            <p>Home Page</p>
-        </div>
+        <section>
+            <div>
+                <h1>Home Page</h1>
+            </div>
+        </section>
     )
 }
 
