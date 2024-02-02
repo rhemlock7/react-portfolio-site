@@ -1,0 +1,15 @@
+#mobile-menu {
+    display: hidden;
+}
+
+@media screen and (max-width:600px) {
+    #mobile-menu {
+        flex-direction: column;
+        justify-content: end;
+        align-items: end;
+        margin: 0 auto;
+        padding-bottom: 15px;
+        max-width: 1440px;
+        width: 90%;
+    }
+}
