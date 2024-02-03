@@ -22,7 +22,7 @@ function NavBar() {
                 </div>
                 <div className='hidden md:block'>
                     <NavLink to='/' text="About" currentPath={location.pathname} />
-                    <NavLink to='/projects' text="Projects" currentPath={location.pathname} />
+                    <NavLink to='/projects' text="Portfolio" currentPath={location.pathname} />
                     <NavLink to='/contact' text="Contact" currentPath={location.pathname} />
                     <Link to='/resume'><button className="button-cta">Resume</button></Link>
                 </div>
